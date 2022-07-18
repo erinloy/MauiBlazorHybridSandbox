@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Sandbox.Client.Razor\Sandbox.Client.Razor.csproj" />
     <ProjectReference Include="..\Shared\Sandbox.Client.Blazor.Shared.csproj" />
   </ItemGroup>
 
