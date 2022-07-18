@@ -20,6 +20,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Client.Maui", "Sand
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Client.Razor", "Sandbox.Client.Razor\Sandbox.Client.Razor.csproj", "{50F29AC8-1029-4C97-B228-64B7083A92FC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{E40DFAEB-A207-44F2-8099-32D87FFB0806}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E5292FB7-5660-47D3-A88F-7EC25FBABB29}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +72,7 @@ Global
 		{0C9901B9-B92A-402D-88FB-6A70100945F6} = {75BECA76-6062-4A3D-BBA0-010730FBD3EB}
 		{FDD7912D-BC49-4259-A47D-2240DAAC3108} = {4E0B82CA-4FEE-4434-83D1-9D971F11C87A}
 		{50F29AC8-1029-4C97-B228-64B7083A92FC} = {D8F0B004-1B2A-47A8-900F-201AFB8FC598}
+		{E5292FB7-5660-47D3-A88F-7EC25FBABB29} = {E40DFAEB-A207-44F2-8099-32D87FFB0806}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
