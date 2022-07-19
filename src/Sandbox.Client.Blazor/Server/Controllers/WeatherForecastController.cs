@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Sandbox.Client.Blazor.Shared;
+using Sandbox.Model;
 
 namespace Sandbox.Client.Blazor.Server.Controllers
 {

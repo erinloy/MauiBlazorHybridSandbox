@@ -1,4 +1,4 @@
-namespace Sandbox.Client.Blazor.Shared
+namespace Sandbox.Model
 {
     public class WeatherForecast
     {

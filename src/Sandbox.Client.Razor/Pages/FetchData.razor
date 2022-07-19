@@ -1,12 +1,10 @@
 ﻿@page "/fetchdata"
-@using Sandbox.Client.Blazor.Shared
-@inject HttpClient Http
 
-<PageTitle>Weather forecast</PageTitle>
+@inject IWeatherForecastService ForecastService
 
 <h1>Weather forecast</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
+<p>This component demonstrates fetching data from a service.</p>
 
 @if (forecasts == null)
 {
@@ -38,10 +36,10 @@ else
 }
 
 @code {
-    private WeatherForecast[]? forecasts;
+    private WeatherForecast[] forecasts = Array.Empty<WeatherForecast>();
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
     }
 }

@@ -16,7 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\" />
+    <ProjectReference Include="..\Sandbox.Client.Abstract\Sandbox.Client.Abstract.csproj" />
+    <ProjectReference Include="..\Sandbox.Model\Sandbox.Model.csproj" />
   </ItemGroup>
 
 </Project>

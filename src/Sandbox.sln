@@ -18,7 +18,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Client.Blazor.Share
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Client.Maui", "Sandbox.Client.Maui\Sandbox.Client.Maui.csproj", "{FDD7912D-BC49-4259-A47D-2240DAAC3108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Client.Razor", "Sandbox.Client.Razor\Sandbox.Client.Razor.csproj", "{50F29AC8-1029-4C97-B228-64B7083A92FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxContent", "Sandbox.Client.Razor\SandboxContent.csproj", "{50F29AC8-1029-4C97-B228-64B7083A92FC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{E40DFAEB-A207-44F2-8099-32D87FFB0806}"
 	ProjectSection(SolutionItems) = preProject
@@ -30,6 +30,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E5292FB7-566
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{C713173D-1496-4AFC-8FB3-00A8CB28F6E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{B45BA93E-1AB3-4578-B92B-8A98C652F188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Client.Abstract", "Sandbox.Client.Abstract\Sandbox.Client.Abstract.csproj", "{B5C0314A-A6F5-4EA9-A157-78B7B051BDEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Model", "Sandbox.Model\Sandbox.Model.csproj", "{B31B6D4D-BB44-41B0-B72F-A70962677010}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +67,14 @@ Global
 		{50F29AC8-1029-4C97-B228-64B7083A92FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50F29AC8-1029-4C97-B228-64B7083A92FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50F29AC8-1029-4C97-B228-64B7083A92FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C0314A-A6F5-4EA9-A157-78B7B051BDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C0314A-A6F5-4EA9-A157-78B7B051BDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C0314A-A6F5-4EA9-A157-78B7B051BDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C0314A-A6F5-4EA9-A157-78B7B051BDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31B6D4D-BB44-41B0-B72F-A70962677010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31B6D4D-BB44-41B0-B72F-A70962677010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31B6D4D-BB44-41B0-B72F-A70962677010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31B6D4D-BB44-41B0-B72F-A70962677010}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +89,9 @@ Global
 		{FDD7912D-BC49-4259-A47D-2240DAAC3108} = {4E0B82CA-4FEE-4434-83D1-9D971F11C87A}
 		{50F29AC8-1029-4C97-B228-64B7083A92FC} = {D8F0B004-1B2A-47A8-900F-201AFB8FC598}
 		{E5292FB7-5660-47D3-A88F-7EC25FBABB29} = {E40DFAEB-A207-44F2-8099-32D87FFB0806}
+		{B45BA93E-1AB3-4578-B92B-8A98C652F188} = {0BDC9AE2-2B90-4B30-BBBA-4F42E45CD3FE}
+		{B5C0314A-A6F5-4EA9-A157-78B7B051BDEA} = {B45BA93E-1AB3-4578-B92B-8A98C652F188}
+		{B31B6D4D-BB44-41B0-B72F-A70962677010} = {C713173D-1496-4AFC-8FB3-00A8CB28F6E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}

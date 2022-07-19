@@ -1,6 +1,9 @@
+using Sandbox.Client.Abstract;
+using Sandbox.Model;
+
 namespace Sandbox.Client.Maui.Data
 {
-    public class WeatherForecastService
+    public class WeatherForecastService : IWeatherForecastService
     {
         private static readonly string[] Summaries = new[]
         {
