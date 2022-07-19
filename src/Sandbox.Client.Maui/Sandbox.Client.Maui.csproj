@@ -51,7 +51,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Sandbox.Client.Abstract\Sandbox.Client.Abstract.csproj" />
-      <ProjectReference Include="..\Sandbox.Client.Razor\SandboxContent.csproj" />
+      <ProjectReference Include="..\Sandbox.Client.Razor\Sandbox.Client.Razor.csproj" />
       <ProjectReference Include="..\Sandbox.Model\Sandbox.Model.csproj" />
     </ItemGroup>
 

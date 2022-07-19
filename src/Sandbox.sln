@@ -10,15 +10,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Razor", "Razor", "{D8F0B004
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Maui", "Maui", "{4E0B82CA-4FEE-4434-83D1-9D971F11C87A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Client.Blazor.Server", "Sandbox.Client.Blazor\Server\Sandbox.Client.Blazor.Server.csproj", "{44C1A2F0-C408-45C3-87AE-71D889E48F56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Client.Blazor.Server", "Sandbox.Client.Blazor\Server\Sandbox.Client.Blazor.Server.csproj", "{44C1A2F0-C408-45C3-87AE-71D889E48F56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Client.Blazor.Client", "Sandbox.Client.Blazor\Client\Sandbox.Client.Blazor.Client.csproj", "{C94CDBD1-A97F-471A-9B8E-4D6710927372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Client.Blazor.Client", "Sandbox.Client.Blazor\Client\Sandbox.Client.Blazor.Client.csproj", "{C94CDBD1-A97F-471A-9B8E-4D6710927372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Client.Blazor.Shared", "Sandbox.Client.Blazor\Shared\Sandbox.Client.Blazor.Shared.csproj", "{0C9901B9-B92A-402D-88FB-6A70100945F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Client.Blazor.Shared", "Sandbox.Client.Blazor\Shared\Sandbox.Client.Blazor.Shared.csproj", "{0C9901B9-B92A-402D-88FB-6A70100945F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Client.Maui", "Sandbox.Client.Maui\Sandbox.Client.Maui.csproj", "{FDD7912D-BC49-4259-A47D-2240DAAC3108}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Client.Maui", "Sandbox.Client.Maui\Sandbox.Client.Maui.csproj", "{FDD7912D-BC49-4259-A47D-2240DAAC3108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxContent", "Sandbox.Client.Razor\SandboxContent.csproj", "{50F29AC8-1029-4C97-B228-64B7083A92FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Client.Razor", "Sandbox.Client.Razor\Sandbox.Client.Razor.csproj", "{50F29AC8-1029-4C97-B228-64B7083A92FC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{E40DFAEB-A207-44F2-8099-32D87FFB0806}"
 	ProjectSection(SolutionItems) = preProject
@@ -35,9 +35,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{C713173D-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{B45BA93E-1AB3-4578-B92B-8A98C652F188}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Client.Abstract", "Sandbox.Client.Abstract\Sandbox.Client.Abstract.csproj", "{B5C0314A-A6F5-4EA9-A157-78B7B051BDEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Client.Abstract", "Sandbox.Client.Abstract\Sandbox.Client.Abstract.csproj", "{B5C0314A-A6F5-4EA9-A157-78B7B051BDEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Model", "Sandbox.Model\Sandbox.Model.csproj", "{B31B6D4D-BB44-41B0-B72F-A70962677010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Model", "Sandbox.Model\Sandbox.Model.csproj", "{B31B6D4D-BB44-41B0-B72F-A70962677010}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
