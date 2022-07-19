@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Sandbox.Client.Abstract;
 using Sandbox.Client.Blazor.Client;
-using Sandbox.Client.Blazor.Client.Code;
+using Sandbox.Client.Services;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");

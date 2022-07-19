@@ -3,7 +3,7 @@ using Sandbox.Model;
 using System.Net.Http.Json;
 using static System.Net.WebRequestMethods;
 
-namespace Sandbox.Client.Blazor.Client.Code
+namespace Sandbox.Client.Services
 {
     public class WeatherForecastService : IWeatherForecastService
     {

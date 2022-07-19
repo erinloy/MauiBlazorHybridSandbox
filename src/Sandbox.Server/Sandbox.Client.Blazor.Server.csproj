@@ -11,9 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Sandbox.Model\Sandbox.Model.csproj" />
-    <ProjectReference Include="..\Client\Sandbox.Client.Blazor.Client.csproj" />
-    <ProjectReference Include="..\Shared\Sandbox.Client.Blazor.Shared.csproj" />
+    <ProjectReference Include="..\Sandbox.Client.Blazor\Sandbox.Client.Blazor.Client.csproj" />
+    <ProjectReference Include="..\Sandbox.Model\Sandbox.Model.csproj" />
   </ItemGroup>
 
 

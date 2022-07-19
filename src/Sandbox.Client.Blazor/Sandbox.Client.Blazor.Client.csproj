@@ -13,10 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Sandbox.Client.Abstract\Sandbox.Client.Abstract.csproj" />
-    <ProjectReference Include="..\..\Sandbox.Client.Razor\Sandbox.Client.Razor.csproj" />
-    <ProjectReference Include="..\..\Sandbox.Model\Sandbox.Model.csproj" />
-    <ProjectReference Include="..\Shared\Sandbox.Client.Blazor.Shared.csproj" />
+    <ProjectReference Include="..\Sandbox.Client.Abstract\Sandbox.Client.Abstract.csproj" />
+    <ProjectReference Include="..\Sandbox.Client.Razor\Sandbox.Client.Razor.csproj" />
+    <ProjectReference Include="..\Sandbox.Client.Services\Sandbox.Client.Services.csproj" />
+    <ProjectReference Include="..\Sandbox.Model\Sandbox.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Code\" />
     <Folder Include="Pages\" />
     <Folder Include="Shared\" />
   </ItemGroup>
